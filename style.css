@@ -1,6 +1,8 @@
+
 html{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #648273;
+    font-family: roboto;
+    background-color: #bbdaca;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -8,7 +10,13 @@ body {
     padding: 0;
 }
 header{
-    height: 100px;
+    height: 10%;
+}
+section{
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .socials{
     border-radius:5px;
@@ -25,8 +33,7 @@ header{
 
 nav {
     width: 100%;
-    height: 75px;
-    /* margin: auto; */
+    margin: auto;
     margin-right: 1%;
     display: flex;
     justify-content: space-around;
@@ -52,20 +59,23 @@ nav {
 .in-links{
     text-decoration: none;
 }
+
 .intro{
     display: flex;
     justify-content: space-around;
     width: 60%;
-    margin: 0 auto;
+    /* margin: 50px auto; */
     flex-direction: row;
     align-items: center;
     gap: 100px;
-    margin-top: 200px;
 }
 .paragraph1{
   width: 60%;
 }
 
+.front-page{
+    height: 100vh;
+}
 
 form {
     display: flex;
@@ -145,7 +155,16 @@ nav button {
 }
     
 #about-me{
-    margin-top: 300px;
+    height: 100vh;
+}
+
+.about-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85%;
+    width: 80%;
+    margin: auto;
 }
 
 .socials a {
@@ -154,21 +173,29 @@ nav button {
 
 #about-title{
     text-align: center;
-    margin-top: 100px;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+}
 
+#intro-para::first-letter{
+    font-size: 20px
 }
 
 .about-container{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 150px;
-    height: fit-content;
+    height: 100%;
+    align-items: center;
+
 }
 
 .about-boxes{
     width: 30%;
-    background-color: #464646;
+    height: 30%;
+    border: 2px solid black;
     border-radius: 10px;
     padding: 0 20px;
 }
@@ -177,7 +204,88 @@ nav button {
     font-size: 20px;
 }
 
+.about-boxes ul{
+    font-size: 20px;
+}
+
 .about-titles{
     text-align: center;
     font-size: 30px;
+    display: inline;
 }
+
+#about-title h1{
+    font-size: 75px;
+}
+
+.education-title{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    width: 40%;
+    margin: auto;
+}
+
+.exp-title{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+}
+
+.skills-title{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin: auto;
+}
+
+
+#edu-svg, #exp-svg, #skills-svg{
+    display: flex;
+    align-self: center;
+}
+
+footer{
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+}
+#contact-me{
+    color: antiquewhite;
+    width: 100%;
+    text-align: center;
+    font-size: 75px;
+}
+
+.form-elements{
+    color: antiquewhite;
+    margin-block: 7px;
+}
+
+.form-elements input, .form-elements textarea{
+    background-color: #DAD7CD;
+    border: 3px solid rgb(100, 100, 100);
+    border-radius: 10px;
+    font-size: 20px;
+}
+ #submit-form{
+    font-size: 30px;
+    padding: 8px 60px;
+    background-color: rgb(1, 66, 1);
+    color: #DAD7CD;
+    border: 2px solid rgb(3, 155, 41);
+    border-radius: 50px;
+ }
+ #submit-form:hover{
+    cursor: pointer;
+    background-color: rgb(3, 155, 41);
+    transition: 100ms;
+ }
+
+ #submit-form:active{
+    cursor: pointer;
+    background-color:antiquewhite;
+    color: rgb(3, 155, 41);
+    font-size: 28px;
+ }
