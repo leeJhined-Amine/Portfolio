@@ -1,2 +1,3 @@
-Not my best design, but still not bad i'd say, the css is a complete mess, i built this project in a *long period of time* which lead to messing my thoughts about what i was doing (should've used comments), you might find a lot of useless stuff. other than that, everything should be good.
+Not my best design, but still not bad i'd say, the css is a complete mess, i worked on this project over *long period of time* which lead to some confusions and lack of clarity (should've used comments), you might encounter a lot of unnecessary stuff. other than that, everything should be good.
+might find some minor (major tbh lol) flaws, depends on the screen.
 This should a good brief explanation about the code lol.

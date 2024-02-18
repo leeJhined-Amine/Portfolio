@@ -48,6 +48,10 @@ nav {
     list-style: url(./Assets/arrow.png);
 }
 
+.navBar-ele li:hover{
+    text-decoration: underline;
+}
+
 .list-ele {
     display: flex;
     justify-content: space-between;
@@ -93,11 +97,6 @@ form {
 .navBar-ele li a {
     color: #DAD7CD;
 }
-
-nav button {
-    margin-top: 10px !important;
-}
-
 #resbut {
     font-size: 15spx;
     position: relative;
